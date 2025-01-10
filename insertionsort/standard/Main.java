@@ -4,6 +4,7 @@ public class Main{
     public static void main(String[] args) {
         int[] arr = {12,11,13,5,6};
         insertSort(arr);
+
         for(int i : arr){
             System.out.println(i);
         }
