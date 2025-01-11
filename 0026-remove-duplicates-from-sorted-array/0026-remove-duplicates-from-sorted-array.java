@@ -25,8 +25,6 @@ class Solution {
                 nums[j] = temp;
             }else break;
         }
-
-
         return nums.length - k;
     }
 }
