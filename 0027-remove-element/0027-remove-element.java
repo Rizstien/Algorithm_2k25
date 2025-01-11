@@ -8,12 +8,12 @@ class Solution {
             }
         }
 
-        int i = 0;
+        int i = 0, temp = 0;
         int j = nums.length-1;
         while(i < j){
             if(nums[i] == -1){
                 if(nums[j] != -1){
-                    int temp = nums[i];
+                    temp = nums[i];
                     nums[i] = nums[j];
                     nums[j] = temp;
                     i++;
