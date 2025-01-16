@@ -9,7 +9,11 @@ class Solution {
         if(left > right) return -1;
 
         if(nums[mid] == target) return mid;
-        else if(nums[left] <= nums[mid]){
+
+        if(nums[mid] == nums[left] && nums[right] == nums[mid]){
+            left++;
+            right--;
+        }else if(nums[left] <= nums[mid]){
             if(target >= nums[left] && target < nums[mid]){
                 right = mid - 1;
             }else{
