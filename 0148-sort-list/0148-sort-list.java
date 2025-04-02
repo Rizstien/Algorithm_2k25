@@ -23,25 +23,25 @@ class Solution {
     }
 
     ListNode merge(ListNode left, ListNode right){
-        ListNode dummy = new ListNode(-1); // Dummy node for result list
+        ListNode dummy = new ListNode(-1);
         ListNode tail = dummy;
 
-        while (left != null && right != null) {
-            if (left.val <= right.val) {
+        while(left != null && right != null){
+            if(left.val < right.val){
                 tail.next = left;
                 left = left.next;
-            } else {
+            }else{
                 tail.next = right;
                 right = right.next;
             }
             tail = tail.next;
         }
 
-        // Attach the remaining elements (only one of these will execute)
-        if (left != null) tail.next = left;
-        if (right != null) tail.next = right;
+        if(left != null) tail.next = left;
+        if(right != null) tail.next = right;
 
-        return dummy.next; // Return merged list (excluding dummy head)
+        return dummy.next;
+
     }
 
     ListNode getMiddle(ListNode head){
