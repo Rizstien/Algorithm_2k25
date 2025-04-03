@@ -127,8 +127,13 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0148-sort-list) |
+| [0206-reverse-linked-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0206-reverse-linked-list) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0148-sort-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
