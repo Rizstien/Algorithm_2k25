@@ -11,22 +11,35 @@
 class Solution {
     public ListNode insertionSortList(ListNode head) {
 
-            if(head == null || head.next == null) return head;
+ if (head == null || head.next == null) return head;
 
-            ListNode dummy = new ListNode(Integer.MIN_VALUE);
-            ListNode curr = head;
+    ListNode dummy = new ListNode(Integer.MIN_VALUE);
+    dummy.next = head;
 
-            while(curr != null){
-                ListNode prev = dummy;
-                while(prev.next != null && prev.next.val < curr.val) prev = prev.next;
+    ListNode lastSorted = head;     // Points to the last sorted node
+    ListNode curr = head.next;      // The node to be inserted
 
-                ListNode next = curr.next;
-                curr.next = prev.next;
-                prev.next = curr;
-                curr = next;
+    while (curr != null) {
+        if (curr.val >= lastSorted.val) {
+            // Current node is already in correct order
+            lastSorted = curr;
+        } else {
+            // Need to find the insertion point from the beginning
+            ListNode prev = dummy;
+            while (prev.next.val < curr.val) {
+                prev = prev.next;
             }
 
-            return dummy.next;
+            // Insert curr between prev and prev.next
+            lastSorted.next = curr.next;
+            curr.next = prev.next;
+            prev.next = curr;
+        }
+
+        curr = lastSorted.next;
+    }
+
+    return dummy.next;
         
     }
 }
