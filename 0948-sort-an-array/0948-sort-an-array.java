@@ -36,6 +36,21 @@ class Solution {
         
     }
 
+    private int lomutoPartition(int[] arr, int low, int high){
+        int pivot = arr[high];  // as lumoto partitioning formula assume the highest element as pivot
+        int i = low-1; // this keeps the index of last element that is smaller or equal to pivot
+
+        for(int j=low; j<high; j++){
+            if(arr[j] < pivot){   // the element at i index should be smaller then pivot not j so swap their positions
+                i++;
+                swap(arr, i, j);
+            }
+        }
+
+        swap(arr, i+1, high);   // now put the pivot at right position that is after the one smaller element then pivot
+        return i+1; // return pivot position
+    }
+
     public void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
