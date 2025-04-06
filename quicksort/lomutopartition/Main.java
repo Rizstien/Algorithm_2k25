@@ -1,4 +1,4 @@
-package quicksort.lomutopartition;
+package quicksort.lomuto;
 
 import java.util.Arrays;
 

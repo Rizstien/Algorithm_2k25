@@ -1,4 +1,4 @@
-package quicksort.list;
+package quicksort.list.lomuto;
 
 class ListNode {
     int val;
