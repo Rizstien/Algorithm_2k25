@@ -10,48 +10,52 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        if(head == null || head.next == null) return head;
+        if (head == null || head.next == null)
+            return head;
 
-        ListNode middle = getMiddle(head);
-        ListNode nextToMiddle = middle.next;
-        middle.next = null;
+        ListNode mid = mid(head);
+        ListNode nextToMid = mid.next;
+        mid.next = null; // make mid half
 
-        ListNode left = sortList(head);
-        ListNode right = sortList(nextToMiddle);
+        var left = sortList(head);
+        var right = sortList(nextToMid);
 
         return merge(left, right);
     }
 
-    ListNode merge(ListNode left, ListNode right){
-        ListNode dummy = new ListNode(-1);
-        ListNode tail = dummy;
+    private ListNode merge(ListNode first, ListNode second) {
+        var dummy = new ListNode(Integer.MIN_VALUE);
+        var current = dummy;
 
-        while(left != null && right != null){
-            if(left.val < right.val){
-                tail.next = left;
-                left = left.next;
-            }else{
-                tail.next = right;
-                right = right.next;
+        while (first != null && second != null) {
+            if (first.val <= second.val) {
+                current.next = first;
+                first = first.next;
+            } else {
+                current.next = second;
+                second = second.next;
             }
-            tail = tail.next;
+            current = current.next;
         }
 
-        if(left != null) tail.next = left;
-        if(right != null) tail.next = right;
+        if (first != null) current.next = first;
+        if (second != null) current.next = second;
 
         return dummy.next;
-
     }
 
-    ListNode getMiddle(ListNode head){
-        if(head == null) return head;
+    private ListNode mid(ListNode head) {
+        if (head == null) return head;
 
-        ListNode slow = head, fast = head;
-        if(fast.next != null && fast.next.next != null){
+        ListNode slow = head;
+        ListNode fast = head;
+
+        // Move fast pointer two steps and slow pointer one step at a time
+        while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
+
         return slow;
     }
 }
