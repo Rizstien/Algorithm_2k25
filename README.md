@@ -1,5 +1,5 @@
 A collection of LeetCode questions to ace the coding interview!
-![Stats](https://leetcard.jacoblin.cool/rizstien)
+![Stats](https://leetcard.jacoblin.cool/rizstien?ext=activity&width=800)
 
 
 <!---LeetCode Topics Start-->
