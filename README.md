@@ -1,4 +1,7 @@
 A collection of LeetCode questions to ace the coding interview!
+![Stats](https://leetcard.jacoblin.cool/rizstien)
+
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
