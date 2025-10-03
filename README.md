@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0039-combination-sum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Rizstien/Algorithm_2k25/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Rizstien/Algorithm_2k25/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Rizstien/Algorithm_2k25/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/Rizstien/Algorithm_2k25/tree/master/0066-plus-one) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/Rizstien/Algorithm_2k25/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/Rizstien/Algorithm_2k25/tree/master/0169-majority-element) |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Rizstien/Algorithm_2k25/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Rizstien/Algorithm_2k25/tree/master/0075-sort-colors) |
 | [0147-insertion-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0147-insertion-sort-list) |
@@ -180,5 +183,6 @@ A collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
