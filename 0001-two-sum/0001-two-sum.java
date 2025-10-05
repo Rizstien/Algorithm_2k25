@@ -7,9 +7,10 @@ class Solution {
         }
         for(int i=0;i<nums.length;i++){
             result[0] = i;
-            if(map.containsKey(target-nums[i]) && map.get(target-nums[i])!=i){
-                result[1] = map.get(target-nums[i]);
-               break;
+            Integer secondIndex = map.get(target-nums[i]);
+            if(secondIndex!=null && secondIndex!=i){
+                result[1] = secondIndex;
+                break;
             }
         }
         return result;
