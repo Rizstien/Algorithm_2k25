@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Rizstien/Algorithm_2k25/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Hash Table
 |  |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Rizstien/Algorithm_2k25/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Rizstien/Algorithm_2k25/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Math
 |  |
@@ -105,11 +108,13 @@ A collection of LeetCode questions to ace the coding interview!
 | [0148-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Rizstien/Algorithm_2k25/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Rizstien/Algorithm_2k25/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -140,11 +145,13 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 ## Linked List
 |  |
 | ------- |
@@ -166,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/Rizstien/Algorithm_2k25/tree/master/0164-maximum-gap) |
+| [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Radix Sort
 |  |
