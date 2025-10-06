@@ -1,5 +1,7 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
+        if(nums.length==k) return nums;
+
         // Initialize a mapo that wil contain the frequency of each element
         Map<Integer, Integer> freq = new HashMap<Integer, Integer>();
         int[] result = new int[k];
@@ -9,6 +11,7 @@ class Solution {
             freq.put(num, freq.getOrDefault(num,0)+1);
         }
 
+        // 
         Queue<Integer> heap = new PriorityQueue<>(
             (a, b) -> freq.get(a) - freq.get(b)
         );
