@@ -4,13 +4,9 @@ class Solution {
 
         for(int num :  nums){
             heap.add(num);
+            if(heap.size()>k) heap.poll();
         }
-
-        int limit = heap.size()-k;
-        for(int i=0;i<limit;i++){
-            heap.poll();
-        }
-
+        
         return heap.peek();
     }
 }
