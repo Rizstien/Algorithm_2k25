@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0238-product-of-array-except-self](https://github.com/Rizstien/Algorithm_2k25/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
+| [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -198,4 +199,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Rizstien/Algorithm_2k25/tree/master/0238-product-of-array-except-self) |
+| [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
