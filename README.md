@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Rizstien/Algorithm_2k25/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/Rizstien/Algorithm_2k25/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
@@ -199,5 +200,10 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Rizstien/Algorithm_2k25/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
