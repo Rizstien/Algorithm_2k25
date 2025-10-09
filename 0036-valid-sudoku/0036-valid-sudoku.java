@@ -15,8 +15,7 @@ class Solution {
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 char val = board[i][j];
-                    if(val == '.') continue;
-                
+                if(val != '.'){
                     if(row[i].contains(val)) return false;
                     row[i].add(val);
 
@@ -26,7 +25,7 @@ class Solution {
                     int boxN = (i/3)*3+(j/3);
                     if(box[boxN].contains(val)) return false;
                     box[boxN].add(val);
-
+                } 
             }
         }
 
