@@ -23,7 +23,7 @@ class Solution {
                     if(col[j].contains(val)) return false;
                     col[j].add(val);
 
-                    int boxN = (i/3)*3+j/3;
+                    int boxN = (i/3)*3+(j/3);
                     if(box[boxN].contains(val)) return false;
                     box[boxN].add(val);
 
