@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0033-search-in-rotated-sorted-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Rizstien/Algorithm_2k25/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/Rizstien/Algorithm_2k25/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Rizstien/Algorithm_2k25/tree/master/0042-trapping-rain-water) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Rizstien/Algorithm_2k25/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/Rizstien/Algorithm_2k25/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0142-linked-list-cycle-ii) |
@@ -206,4 +208,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/Rizstien/Algorithm_2k25/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
