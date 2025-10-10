@@ -1,6 +1,6 @@
 class Solution {
 
-    // Solution that works in O(nlogn)  due to sorting
+    // Solution that works in O(nlogn)  due to sorting but takes no extra memory
     public int longestConsecutive(int[] nums) {
         if(nums.length == 0 ) return 0;
         if(nums.length == 1 ) return 1;
@@ -17,7 +17,7 @@ class Solution {
 
 
 
-// Other solution that uses Hashset to get rid of duplicates but runs in O(n^2)
+// Other solution that uses Hashset to get rid of duplicates but runs in O(n^2)  and takses O(n) extra memory
 /*
     public int longestConsecutive(int[] nums) {
         if(nums.length == 0 ) return 0;
