@@ -1,4 +1,6 @@
 class Solution {
+
+    // Solution that works in O(nlogn)  due to sorting
     public int longestConsecutive(int[] nums) {
         if(nums.length == 0 ) return 0;
         if(nums.length == 1 ) return 1;
@@ -12,4 +14,35 @@ class Solution {
         }
         return globalLongest;
     }
+
+
+
+// Other solution that uses Hashset to get rid of duplicates but runs in O(n^2)
+/*
+    public int longestConsecutive(int[] nums) {
+        if(nums.length == 0 ) return 0;
+        Set<Integer> numSet = new HashSet<>();
+        int longestSeq = 1;
+        for(int num : nums){
+            numSet.add(num);
+        }
+
+        for(int num : numSet){
+            if(numSet.contains(num-1)) continue;
+            else{
+                int current = num;
+                int currentSeq = 1;
+                while(numSet.contains(current+1)){
+                    currentSeq++;
+                    current++;
+                }
+                longestSeq = Math.max(currentSeq, longestSeq);
+            }
+        }
+
+        return longestSeq;
+    }
+
+*/
+
 }
