@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Rizstien/Algorithm_2k25/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Rizstien/Algorithm_2k25/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0125-valid-palindrome](https://github.com/Rizstien/Algorithm_2k25/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Rizstien/Algorithm_2k25/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0148-sort-list) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Rizstien/Algorithm_2k25/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/Rizstien/Algorithm_2k25/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 ## Prefix Sum
 |  |
