@@ -1,5 +1,7 @@
 class Solution {
     public boolean isPalindrome(String s) {
+ 
+ /*
         HashSet<Character> charSet = new HashSet<Character>();
         for(char c='a';c<='z';c++){
             charSet.add(c);
@@ -16,14 +18,20 @@ class Solution {
 
         charArr = sb.toString().toCharArray();
 
-        int i=0,j=charArr.length-1;
-        while(i<=j){
-            if(charArr[i]==charArr[j]){
+*/
+
+
+        int i=0,j=s.length()-1;
+        while(i<j){
+            while(i<j && !Character.isLetterOrDigit(s.charAt(i))){
                 i++;
-                j--;
-            }else{
-                return false;
             }
+            while(i<j && !Character.isLetterOrDigit(s.charAt(j))){
+                j--;
+            }
+            if(Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j))) return false;
+            i++;
+            j--;
         }
 
         return true;
