@@ -1,6 +1,8 @@
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int i=0, j=numbers.length-1,sum=0;
+        
+        // Two Pointers approach - O(n) time O(1) space
         while(i<j){
             sum = numbers[i]+numbers[j];
             if(sum>target) j--;
