@@ -1,15 +1,29 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int buyPrice = prices[0];
-        int maxProfit = 0;
+        int bPrice=prices[0],profit=0;
+
         for(int i=1;i<prices.length;i++){
-            if(buyPrice > prices[i]){
-                buyPrice = prices[i];
-            }else if(buyPrice < prices[i]){
-                int profit = prices[i] - buyPrice;
-                if(profit > maxProfit) maxProfit = profit;
+            if(prices[i] < bPrice){
+                bPrice = prices[i];
+            }
+
+            profit = Math.max(profit, prices[i]-bPrice);
+        }
+
+/*
+        // B.F O(n^2) approach
+        for(int i=0;i<prices.length;i++){
+            if(prices[i] > bPrice && i > bDay){
+                profit = Math.max(profit,prices[i] - bPrice);
             }
         }
-        return maxProfit;
+
+        for(int i=0;i<prices.length;i++){
+            for(int j=i+1;j<prices.length;j++){
+                profit = Math.max(profit,prices[j]-prices[i]);
+            }
+        }
+*/
+        return profit;
     }
 }
