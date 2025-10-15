@@ -2,6 +2,7 @@ class Solution {
     public int lengthOfLongestSubstring(String s) {
 
         /*
+        // My Attempted Solution
         if(s.length()==1) return 1;
         Set<Character> set = new HashSet<Character>();
         int longest = 0, local=0;
