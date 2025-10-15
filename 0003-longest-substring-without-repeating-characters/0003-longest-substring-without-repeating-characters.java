@@ -19,21 +19,20 @@ class Solution {
         return Math.max(longest,local);
         */
 
-        if(s.length()==1) return 1;
-        if(s.length()==0) return 0;
-        Set<Character> visited = new HashSet<Character>();
-        int l=0,r=0,ans=0;
 
+        Set<Character> visited = new HashSet<>();
+        int l=0,r=0,ans=0;
         while(r<s.length()){
             char c = s.charAt(r);
             while(visited.contains(c)){
                 visited.remove(s.charAt(l));
                 l++;
             }
-            ans = Math.max(ans, r-l+1);
             visited.add(c);
+            ans = Math.max(ans, r-l+1);
             r++;
         }
         return ans;
+
     }
 }
