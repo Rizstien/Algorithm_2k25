@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Rizstien/Algorithm_2k25/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/Rizstien/Algorithm_2k25/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
 | [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Quickselect
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0003-longest-substring-without-repeating-characters](https://github.com/Rizstien/Algorithm_2k25/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Rizstien/Algorithm_2k25/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Rizstien/Algorithm_2k25/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
 ## String
@@ -239,4 +242,12 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Rizstien/Algorithm_2k25/tree/master/0128-longest-consecutive-sequence) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
