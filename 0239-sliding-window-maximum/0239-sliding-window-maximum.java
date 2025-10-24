@@ -18,8 +18,7 @@ class Solution {
         // Optimal Solution O(n) space + O(k) time
 
         int[] msw = new int[nums.length-k+1];
-        int l=0,r=l+k-1;
-        Deque<Integer> deque = new LinkedList<>();
+        Deque<Integer> deque = new ArrayDeque<>();
         for(int i=0;i<nums.length;i++){
             while(!deque.isEmpty() && deque.peek() < i-k+1){
                 deque.poll();
@@ -28,7 +27,7 @@ class Solution {
                 deque.pollLast();
             }
             deque.offer(i);
-            if(i >= k-1){
+            if(i>=k-1){
                 msw[i-k+1] = nums[deque.peek()];
             }
         }
