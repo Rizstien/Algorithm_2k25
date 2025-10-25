@@ -8,14 +8,14 @@ class Solution {
                 stack.push(c);
             }
             else if(c == ')' || c == '}' || c == ']'){
-                if(stack.size() <= 0) return false;
+                if(stack.empty()) return false;
                 char openingBracket = stack.pop();
                 if(c == ')' && openingBracket != '(') return false;
                 else if(c == '}' && openingBracket != '{') return false;
                 else if(c == ']' && openingBracket != '[') return false;
             }
         }
-        if(stack.size() == 0) return true;
+        if(stack.empty()) return true;
         return false;
     }
 }
