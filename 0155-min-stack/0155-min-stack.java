@@ -9,26 +9,26 @@ class MinStack {
     }
     
     public void push(int val) {
-        /*
         min = Math.min(min, val);
         head = new Node(val,min,head);
         stack.push(head);
        // head = node;
-       */
 
-
+/*
         if(head == null){
             head = new Node(val, val, null);
         }else{
             head = new Node(val, Math.min(val, head.min), head);
         }
         stack.push(head);
-        
+        */
     }
     
     public void pop() {
         stack.pop();
         head = head.prev;
+        if(!stack.empty()) min = head.min;
+        else if(stack.empty()) min = Integer.MAX_VALUE;
     }
     
     public int top() {
