@@ -12,16 +12,6 @@ class MinStack {
         min = Math.min(min, val);
         head = new Node(val,min,head);
         stack.push(head);
-       // head = node;
-
-/*
-        if(head == null){
-            head = new Node(val, val, null);
-        }else{
-            head = new Node(val, Math.min(val, head.min), head);
-        }
-        stack.push(head);
-        */
     }
     
     public void pop() {
