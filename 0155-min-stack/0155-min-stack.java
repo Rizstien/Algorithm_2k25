@@ -2,29 +2,33 @@ class MinStack {
 
     Stack<Node> stack;
     int min = Integer.MAX_VALUE;
-    Node node;
+    Node head = null;
 
     public MinStack() {
         stack = new Stack<>();
     }
     
     public void push(int val) {
-        //min = Math.min(min, val);
-        //Node node = new Node(val,min,head);
-        //stack.push(node);
-        //head = node;
+        /*
+        min = Math.min(min, val);
+        head = new Node(val,min,head);
+        stack.push(head);
+       // head = node;
+       */
 
-        if(node == null){
-            node = new Node(val, val, null);
+
+        if(head == null){
+            head = new Node(val, val, null);
         }else{
-            node = new Node(val, Math.min(val, node.min), node);
+            head = new Node(val, Math.min(val, head.min), head);
         }
-        stack.push(node);
+        stack.push(head);
+        
     }
     
     public void pop() {
         stack.pop();
-        node = node.prev;
+        head = head.prev;
     }
     
     public int top() {
