@@ -1,11 +1,11 @@
 class MinStack {
 
-    //Stack<Node> stack;
+    Stack<Node> stack;
     int min = Integer.MAX_VALUE;
     Node head;
 
     public MinStack() {
-        //stack = new Stack<>();
+        stack = new Stack<>();
     }
     
     public void push(int val) {
@@ -21,19 +21,20 @@ class MinStack {
         }else{
             head = new Node(val, Math.min(val, head.min), head);
         }
+        stack.push(head);
     }
     
     public void pop() {
-        //stack.pop();
+        stack.pop();
         head = head.prev;
     }
     
     public int top() {
-        return head.val;
+        return stack.peek().val;
     }
     
     public int getMin() {
-        return head.min;
+        return stack.peek().min;
     }
 }
 
