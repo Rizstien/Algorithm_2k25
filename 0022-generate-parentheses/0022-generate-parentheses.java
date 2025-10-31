@@ -1,5 +1,8 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
+        // Time	O(Cₙ × n) ≈ O(4ⁿ / √n)	Generates all valid sequences
+        // Space (recursion)	O(n)	Call stack + current path
+        // Space (total including output)	O(Cₙ × n)	To store all generated strings
         List<String> ans = new ArrayList<String>();
         backtrack(ans, new StringBuilder(), 0, 0, n);
         return ans;
