@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
 | [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
+| [0739-daily-temperatures](https://github.com/Rizstien/Algorithm_2k25/tree/master/0739-daily-temperatures) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
@@ -159,10 +160,12 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Rizstien/Algorithm_2k25/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Rizstien/Algorithm_2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Rizstien/Algorithm_2k25/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/Rizstien/Algorithm_2k25/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Rizstien/Algorithm_2k25/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/Rizstien/Algorithm_2k25/tree/master/0739-daily-temperatures) |
 ## Greedy
 |  |
 | ------- |
