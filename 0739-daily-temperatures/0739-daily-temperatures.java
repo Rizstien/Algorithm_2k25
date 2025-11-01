@@ -18,27 +18,16 @@ class Solution {
         }
         */
 
-        Stack<Node> stack = new Stack<>(); // O(n)  space
-        stack.push(new Node(temp[0],0));
+        Stack<Integer> stack = new Stack<>(); // O(n)  space
+        stack.push(0);
         for(int i=1;i<temp.length;i++){  // O(n) time
             int curr = temp[i];
-            while(!stack.isEmpty() && curr>stack.peek().val){
-                int topNodeIdx = stack.pop().idx;
+            while(!stack.isEmpty() && curr>temp[stack.peek()]){
+                int topNodeIdx = stack.pop();
                 ans[topNodeIdx] = i - topNodeIdx;
             }
-            stack.push(new Node(temp[i],i));
+            stack.push(i);
         }
-
         return ans;
-
     }
-}
-
-public class Node{
-    Node(int val, int idx){
-        this.idx=idx;
-        this.val=val;
-    }
-    int val;
-    int idx;
 }
