@@ -18,9 +18,9 @@ class Solution {
         }
         */
 
-        Stack<Node> stack = new Stack<>();
+        Stack<Node> stack = new Stack<>(); // O(n)  space
         stack.push(new Node(temp[0],0));
-        for(int i=1;i<temp.length;i++){
+        for(int i=1;i<temp.length;i++){  // O(n) time
             int curr = temp[i];
             while(!stack.isEmpty() && curr>stack.peek().val){
                 int topNodeIdx = stack.pop().idx;
