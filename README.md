@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0303-range-sum-query-immutable](https://github.com/Rizstien/Algorithm_2k25/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0739-daily-temperatures](https://github.com/Rizstien/Algorithm_2k25/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/Rizstien/Algorithm_2k25/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Rizstien/Algorithm_2k25/tree/master/0883-car-fleet) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Rizstien/Algorithm_2k25/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Rizstien/Algorithm_2k25/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0792-binary-search](https://github.com/Rizstien/Algorithm_2k25/tree/master/0792-binary-search) |
 ## Sorting
 |  |
 | ------- |
