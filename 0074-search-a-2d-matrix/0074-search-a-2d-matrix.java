@@ -1,8 +1,12 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        for(int[] nums : matrix)
-            if(binarySearch(nums, target)) return true;
-
+        for(int[] nums : matrix){
+            if(nums[0]==target || nums[nums.length-1]==target) return true;
+            else if(nums[0] < target && nums[nums.length-1] > target){
+                if(binarySearch(nums, target)) return true;
+                else return false;
+            }
+        }
         return false;
     }
 
