@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0066-plus-one](https://github.com/Rizstien/Algorithm_2k25/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Rizstien/Algorithm_2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0189-rotate-array) |
+| [0258-add-digits](https://github.com/Rizstien/Algorithm_2k25/tree/master/0258-add-digits) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -279,4 +280,12 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Rizstien/Algorithm_2k25/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Rizstien/Algorithm_2k25/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
