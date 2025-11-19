@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0792-binary-search](https://github.com/Rizstien/Algorithm_2k25/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/Rizstien/Algorithm_2k25/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/Rizstien/Algorithm_2k25/tree/master/0907-koko-eating-bananas) |
+| [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
+| [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
 | [0883-car-fleet](https://github.com/Rizstien/Algorithm_2k25/tree/master/0883-car-fleet) |
+| [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 ## Math
 |  |
