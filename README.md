@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0219-contains-duplicate-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Rizstien/Algorithm_2k25/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
 ## Two Pointers
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0169-majority-element](https://github.com/Rizstien/Algorithm_2k25/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Rizstien/Algorithm_2k25/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0387-first-unique-character-in-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/Rizstien/Algorithm_2k25/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Rizstien/Algorithm_2k25/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
 ## Prefix Sum
@@ -284,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Rizstien/Algorithm_2k25/tree/master/0239-sliding-window-maximum) |
+| [0387-first-unique-character-in-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0387-first-unique-character-in-a-string) |
 ## Monotonic Queue
 |  |
 | ------- |
