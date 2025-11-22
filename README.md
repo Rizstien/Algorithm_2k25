@@ -316,4 +316,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Rizstien/Algorithm_2k25/tree/master/0014-longest-common-prefix) |
+## Database
+|  |
+| ------- |
+| [0197-rising-temperature](https://github.com/Rizstien/Algorithm_2k25/tree/master/0197-rising-temperature) |
 <!---LeetCode Topics End-->
