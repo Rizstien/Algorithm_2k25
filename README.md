@@ -320,4 +320,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0197-rising-temperature](https://github.com/Rizstien/Algorithm_2k25/tree/master/0197-rising-temperature) |
+| [1587-bank-account-summary-ii](https://github.com/Rizstien/Algorithm_2k25/tree/master/1587-bank-account-summary-ii) |
 <!---LeetCode Topics End-->
