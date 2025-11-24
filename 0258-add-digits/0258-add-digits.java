@@ -1,17 +1,18 @@
 class Solution {
     public int addDigits(int num) {
+
         while(num/10 != 0){
-            num = sumOfDigits(num);
+            num = sumOfdigits(num);
         }
         return num;
     }
 
-    public int sumOfDigits(int n) {
+    public int sumOfdigits(int num){
         int sum = 0;
-        while(n/10 != 0){
-            sum += n%10;
-            n = n/10;
+        while(num/10 != 0){
+            sum+=num%10;
+            num = num/10;
         }
-        return sum+n;
+        return sum+num;
     }
 }
