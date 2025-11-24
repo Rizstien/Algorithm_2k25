@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0948-sort-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/1603-running-sum-of-1d-array) |
+| [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/Rizstien/Algorithm_2k25/tree/master/2672-number-of-adjacent-elements-with-the-same-color) |
 ## Hash Table
 |  |
 | ------- |
