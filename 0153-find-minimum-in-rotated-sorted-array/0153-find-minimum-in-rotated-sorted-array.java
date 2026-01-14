@@ -16,10 +16,8 @@ class Solution {
         //this is non rotated or rotated n-times case
         if(nums[mid]>nums[left] && nums[mid]<nums[right]) return nums[left];
 
-
         // rotated array cases
         while(left<=right){
-            
             if(nums[left]<nums[right]){
                 min = Math.min(nums[left],min);
             }
