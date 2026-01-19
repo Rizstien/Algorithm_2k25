@@ -1,46 +1,33 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int[] result = mergesortedArrays(nums1, nums2);
-        int size = result.length;
-        int start = 0, end = size-1;
-        float mid = start + (end-start)/2;
-        if(size%2 == 0){
-            double first = (double) result[size/2-1];
-            double second = (double) result[size/2];
-            return (double) (first+second)/2;
-        }else{
-            return result[(int) Math.floor(mid)];
-        }
-
-    }
-
-    public int[] mergesortedArrays(int nums1[], int nums2[]){
-        int n = nums1.length;
-        int m = nums2.length;
-        int[] result = new int[n+m];
+        
+        int[] result = new int[nums1.length+nums2.length];
 
         int i=0,j=0,k=0;
-
-        while(i<n && j<m){
-            if(nums1[i] < nums2[j]){
-                result[k] = nums1[i];
-                i++;k++;
+        while(i<nums1.length && j<nums2.length){
+            if(nums1[i]<=nums2[j]){
+                result[k++] = nums1[i++];
             }else{
-                result[k] = nums2[j];
-                j++;k++;
+                result[k++] = nums2[j++];
             }
         }
 
-        while(i<n){
-            result[k] = nums1[i];
-            i++;k++;
+        while(i<nums1.length){
+            result[k++] = nums1[i++];
         }
 
-        while(j<m){
-            result[k] = nums2[j];
-            j++;k++;
+        while(j<nums2.length){
+            result[k++] = nums2[j++];
         }
 
-        return result;
+        i=0;
+        j=result.length-1;
+
+        while(i<j){
+            i++;
+            j--;
+        }
+        if(i==j) return result[j];
+        else return (double) (result[i]+result[j])/2;
     }
 }
