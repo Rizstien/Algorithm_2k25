@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0345-reverse-vowels-of-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0345-reverse-vowels-of-a-string) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
 | [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0147-insertion-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/0206-reverse-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Rizstien/Algorithm_2k25/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Merge Sort
 |  |
 | ------- |
