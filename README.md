@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Rizstien/Algorithm_2k25/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Rizstien/Algorithm_2k25/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0345-reverse-vowels-of-a-string) |
 | [0567-permutation-in-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0567-permutation-in-string) |
 | [0941-sort-array-by-parity](https://github.com/Rizstien/Algorithm_2k25/tree/master/0941-sort-array-by-parity) |
 ## Bit Manipulation
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/Rizstien/Algorithm_2k25/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Rizstien/Algorithm_2k25/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Rizstien/Algorithm_2k25/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Rizstien/Algorithm_2k25/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Rizstien/Algorithm_2k25/tree/master/0451-sort-characters-by-frequency) |
